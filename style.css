@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color:rgb(236, 216, 216);
+    color: hotpink;
+}
+.container{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+
+}
+a:hover{
+    color:rgb(253, 0, 89);
+}
+.header{
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgb(1, 1, 1); ;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
